@@ -13,7 +13,7 @@ provider "aws" {
   secret_key = "HrqqZIRTqgUQRqAzoKtQd8mSo/FMAmeukDiBHzQ+"
 }
 
-//Create New Subnet
+//Create New Subnet(AFTER)
 resource "aws_subnet" "subnet-3" {
   vpc_id = "vpc-05397ee1bcd1b5f72"
   cidr_block = "10.10.9.0/24"
