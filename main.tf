@@ -20,6 +20,6 @@ resource "aws_subnet" "subnet-3" {
   availability_zone =  "ap-northeast-2a"
 
   tags = {
-    Name = "(AFTER)Terraform-Cloud-Test-1"
+    Name = "(AFTER)Terraform-Cloud-Test"
   }
 }
